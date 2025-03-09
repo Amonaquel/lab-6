@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+
+#likeBtn, #dislikeBtn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#likeBtn {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+#dislikeBtn {
+    background-color: #f44336; 
+    color: white;
+}
+
+
+.comments {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comments h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+#commentBox {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+#submit, #clear {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#submit {
+    background-color: #3498db; 
+    color: white;
+}
+
+#clear {
+    background-color: #95a5a6;
+    color: white;
+}
+
+
+#commentList {
+    margin-top: 15px;
+    text-align: left;
+}
+
+#commentList div {
+    background-color: #ecf0f1;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
